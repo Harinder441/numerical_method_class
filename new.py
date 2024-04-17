@@ -1,0 +1,37 @@
+l=[1,2,3,4,5]
+n=['a','b','c','d']
+v=['a',4.5,5]
+mil=[l,v]
+print(l)
+print(l[-2])
+print(l[2:])
+print(n)
+print(v)
+print(mil)
+l.append(6)
+print(l)
+#l.clear()
+print(l)
+l.insert(3,45)
+print(l)
+l.remove(5)
+print(l)
+l.pop(1)
+print(l)
+l.pop()
+print(l)
+del l[2:]
+print("del l[2:]",l)
+l.extend([1,2,3])
+print(l)
+print(max(l))
+print(min(l))
+print(sum(l))
+print(max(l))
+l.sort()
+print(l)
+l.copy()
+print(l)        
+l.count(2)
+print("l.count()",l)
+
